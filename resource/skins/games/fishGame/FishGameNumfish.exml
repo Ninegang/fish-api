@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishGameNumfish" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" >
+	<e:Image width="1085" height="620" horizontalCenter="0" verticalCenter="0" source="bg_png"/>
+	<e:Image id="killfish25" horizontalCenter="-44" top="92" source="killfish_25_Gray" anchorOffsetX="0" width="120" anchorOffsetY="0" height="87"/>
+	<e:Image id="killfish26" horizontalCenter="324.5" top="91"  source="killfish_26_Gray"  anchorOffsetX="0" width="125" anchorOffsetY="0" height="94"/>
+	<e:Image id="killfish27" horizontalCenter="198.5" top="92" source="killfish_27_Gray" anchorOffsetX="0" width="117" anchorOffsetY="0" height="84"/>
+	<e:Image id="killfish24" horizontalCenter="-442.5" top="219"  source="killfish_24_Gray"  anchorOffsetX="0" width="121" anchorOffsetY="0" height="73"/>
+	<e:Image id="killfish23" horizontalCenter="-319" top="219"  source="killfish_23_Gray"  anchorOffsetX="0" width="126" anchorOffsetY="0" height="77"/>
+	<e:Image id="killfish22" horizontalCenter="450.5" top="89"  source="killfish_22_Gray" anchorOffsetX="0" width="127" anchorOffsetY="0" height="87"/>
+	<e:Image id="killfish19" horizontalCenter="-171.5" top="94"  source="killfish_19_Gray" anchorOffsetX="0" width="119" anchorOffsetY="0" height="85"/>
+	<e:Image id="killfish20" horizontalCenter="77.5" top="95"  source="killfish_20_Gray" anchorOffsetX="0" width="111" anchorOffsetY="0" height="80"/>
+	<e:Image id="killfish18" horizontalCenter="-439.5" top="93"  source="killfish_18_Gray" anchorOffsetX="0" width="129" anchorOffsetY="0" height="86"/>
+	<e:Image id="killfish17" horizontalCenter="-194.5" top="217"  source="killfish_17_Gray" anchorOffsetX="0" width="129" anchorOffsetY="0" height="84"/>
+	<e:Image id="killfish16" horizontalCenter="-72.5" top="215"  source="killfish_16_Gray" anchorOffsetX="0" width="119" anchorOffsetY="0" height="86"/>
+	<e:Image id="killfish15" horizontalCenter="38" top="214"  source="killfish_15_Gray" anchorOffsetX="0" width="108" anchorOffsetY="0" height="80"/>
+	<e:Image id="killfish21" horizontalCenter="-302" top="95"  source="killfish_21_Gray" anchorOffsetX="0" width="130" anchorOffsetY="0" height="83"/>
+	<e:Image id="killfish14" horizontalCenter="145" top="213"  source="killfish_14_Gray" anchorOffsetX="0" width="108" anchorOffsetY="0" height="81"/>
+	<e:Image id="killfish13" horizontalCenter="252" top="214"  source="killfish_13_Gray" anchorOffsetX="0" width="104" anchorOffsetY="0" height="80"/>
+	<e:Image id="killfish12" horizontalCenter="354" top="214"  source="killfish_12_Gray" anchorOffsetX="0" width="106" anchorOffsetY="0" height="82"/>
+	<e:Image id="killfish11" horizontalCenter="458.5" top="213" source="killfish_11_Gray" anchorOffsetX="0" width="105" anchorOffsetY="0" height="80"/>
+	<e:Image id="killfish10" horizontalCenter="-468" top="338" source="killfish_10_Gray" anchorOffsetX="0" width="98" anchorOffsetY="0" height="80"/>
+	<e:Image id="killfish09" horizontalCenter="-367" top="342" source="killfish_09_Gray" anchorOffsetX="0" width="98"  height="80"/>
+	<e:Image id="killfish08" horizontalCenter="-261" top="341" source="killfish_08_Gray" anchorOffsetX="0" width="98" height="80"/>
+	<e:Image id="killfish07" horizontalCenter="-152" top="340" source="killfish_07_Gray" anchorOffsetX="0" width="98" height="80"/>
+	<e:Image id="killfish06" horizontalCenter="-44" top="340" source="killfish_06_Gray" height="80"/>
+	<e:Image id="killfish05" horizontalCenter="68.5" top="339" source="killfish_05_Gray" height="80"/>
+	<e:Image id="killfish04" horizontalCenter="177" top="338" source="killfish_04_Gray" height="80"/>
+	<e:Image id="killfish03" horizontalCenter="280" top="337" source="killfish_03_Gray" anchorOffsetX="0" width="98" height="80"/>
+	<e:Image id="killfish02" horizontalCenter="371.5" top="339" source="killfish_02_Gray" anchorOffsetX="0" width="95" height="80"/>
+	<e:Image id="killfish01" horizontalCenter="464.5" top="336" source="killfish_01_Gray" anchorOffsetX="0" width="95" height="80"/>
+	<uiCore:Button id="closebtn" label="" right="55" top="30">
+		<uiCore:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</uiCore:skinName>
+	</uiCore:Button>
+    <uiCore:Button id="Continuebtn" label="" left="208" bottom="92">
+			<uiCore:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="continue"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</uiCore:skinName>
+	</uiCore:Button>
+    <uiCore:Button id="Exitbtn" label="" right="206" bottom="95" height="101">
+			<uiCore:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="exit"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</uiCore:skinName>
+	</uiCore:Button>
+	<e:Label id="downtime" text="" x="431.67" y="551" width="86" height="47" verticalAlign="middle" textAlign="center" size="50"/>
+	<e:BitmapLabel id="goldnum" width="329.36" height="66" x="809.64" y="462" anchorOffsetX="0" font="powerFont_fnt" />
+	<e:BitmapLabel id="totalgold" width="436" height="66" x="320" y="462" font="powerFont_fnt"/>
+	<e:Image left="126" top="464" source="puyushouhuo"/>
+	<e:Image left="652" top="460" source="youxibi"/>
+	<e:Label id="killfish26Label" horizontalCenter="324.5" top="179" text="0"/>
+	<e:Label id="killfish25Label" horizontalCenter="-34.5" top="178" text="0"/>
+	<e:Label id="killfish27Label" horizontalCenter="201.5" top="181" text="0"/>
+	<e:Label id="killfish24Label" horizontalCenter="-442.5" top="296" text="0" anchorOffsetX="0" width="-57"/>
+	<e:Label id="killfish23Label" horizontalCenter="-315.5" top="299" text="0"/>
+	<e:Label id="killfish22Label" horizontalCenter="462.5" top="178" text="0"/>
+	<e:Label id="killfish19Label" horizontalCenter="-163.5" top="179" text="0"/>
+	<e:Label id="killfish20Label" horizontalCenter="83.5" top="179" text="0"/>
+	<e:Label id="killfish18Label" horizontalCenter="-442.5" top="183" text="0"/>
+	<e:Label id="killfish17Label" horizontalCenter="-192.5" top="297" text="0"/>
+	<e:Label id="killfish16Label" horizontalCenter="-69.5" top="295" text="0"/>
+	<e:Label id="killfish15Label" horizontalCenter="38.5" top="297" text="0"/>
+	<e:Label id="killfish21Label" horizontalCenter="-315.5" top="183" text="0"/>
+	<e:Label id="killfish14Label" horizontalCenter="141.5" top="299" text="0"/>
+	<e:Label id="killfish13Label" horizontalCenter="254.5" top="297" text="0"/>
+	<e:Label id="killfish12Label" horizontalCenter="363.5" top="297" text="0"/>
+	<e:Label id="killfish11Label" horizontalCenter="457.5" top="297" text="0"/>
+	<e:Label id="killfish10Label" horizontalCenter="-467.5" top="427" text="0"/>
+	<e:Label id="killfish09Label" horizontalCenter="-365.5" top="428" text="0"/>
+	<e:Label id="killfish08Label" horizontalCenter="-252.5" top="429" text="0"/>
+	<e:Label id="killfish07Label" horizontalCenter="-151.5" top="430" text="0"/>
+	<e:Label id="killfish06Label" horizontalCenter="-43.5" top="427" text="0"/>
+	<e:Label id="killfish05Label" horizontalCenter="69.5" top="425" text="0"/>
+	<e:Label id="killfish04Label" horizontalCenter="178" top="427" text="0" anchorOffsetX="0" width="16"/>
+	<e:Label id="killfish03Label" horizontalCenter="280.5" top="427" text="0"/>
+	<e:Label id="killfish02Label" horizontalCenter="372.5" top="429" text="0"/>
+	<e:Label id="killfish01Label" horizontalCenter="464.5" top="428" text="0"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="public.Button1Skin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="gamehall_comfirm_btn"/>
+	<e:Image id="iconDisplay" x="56" y="34" verticalCenter.up="0" horizontalCenter.up="0"/>
+	<uiCore:Label id="labelDisplay" text="" size="28" verticalCenter="-4" horizontalCenter="0" textColor.disabled="0x8C8C8C" fontFamily="Microsoft YaHei"/>
+</e:Skin>

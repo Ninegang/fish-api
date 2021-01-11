@@ -1,0 +1,28 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalBackgroundColor": "",
+    "globalBackgroundImage": "",
+    "globalBackgroundAlpha": 100,
+    "globalBackgroundX": 0,
+    "globalBackgroundY": 0,
+    "globalBackgroundWidth": -1,
+    "globalBackgroundHeight": -1
+  },
+  "16be9d3f9f4": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1
+  },
+  "16be9d3f9f5": {
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "backgroundType": "null",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1
+  }
+}

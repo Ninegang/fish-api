@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="public.AlertSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*">
+	<e:Image scale9Grid="93,99,561,268" horizontalCenter="0" verticalCenter="0" source="NY_gamehall_tipswindow"/>
+	<uiCore:Button id="okButton"  horizontalCenter="0" skinName="public.Button1Skin" verticalCenter="139"/>
+	<uiCore:Label id="messageLabel"  size="20" height="130" verticalAlign="middle" textAlign="center" fontFamily="微软雅黑" horizontalCenter="0.5" lineSpacing="12" anchorOffsetY="0" verticalCenter="34" width="500" textColor="0xc1c6d0" wordWrap="true"/>
+	<uiCore:Label id="txtTitle"  width="300" horizontalCenter="0.5" textAlign="center" fontFamily="微软雅黑" size="28" verticalCenter="-73" textColor="0xc2a265" bold="true" visible="false"/>
+	<e:Image horizontalCenter="0.5" verticalCenter="-71" source="gamehall_title_tips"/>
+</e:Skin>

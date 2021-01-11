@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSceneSkin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" width="1280">
+    <e:Image top="0" bottom="0" left="0" right="0" source="gamehall_loadingBg_png" />
+	<uiCore:Button id="QuickLogin" label="" right="562" verticalCenter="227.5" width="244" height="89" anchorOffsetX="0" anchorOffsetY="0">
+		<uiCore:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+		</uiCore:skinName>
+	</uiCore:Button>
+</e:Skin>

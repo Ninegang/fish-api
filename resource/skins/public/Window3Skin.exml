@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="public.Window3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*">	
+	<e:Group width="100%" height="100%">
+		<e:Image x="0" y="0" fillMode="scale" source="gameRecordBg_png"/>
+		<uiCore:Button id="_closeButton" x="856" y="10">
+			<uiCore:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gamehall_BtnClose_png" source.down="gamehall_BtnClose_png" source.disabled="gamehall_BtnClose_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</uiCore:skinName>
+
+
+		</uiCore:Button>
+	</e:Group>
+	<e:Group id="contentGroup" x="0">
+	</e:Group>
+</e:Skin>

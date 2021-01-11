@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SingleDeskSkin" width="640" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:uiCore="uiCore.*" xmlns:w="http://ns.egret.com/wing">
+	<!--<e:Image anchorOffsetX="0" anchorOffsetY="0" source="desk_allSit_png" width="536" height="353" horizontalCenter="0" verticalCenter="0"/>-->
+	<e:Button id="btnJoinSeat0" label="0" left="400" top="190" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnJoinSeat1" label="1" left="480" top="150" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnJoinSeat2" label="2" left="420" top="40" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnJoinSeat4" label="4" left="80" top="70" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnJoinSeat5" label="5" left="70" top="180" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnJoinSeat3" label="3" left="200" top="40" width="80" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="45" height="75" source="desk_sit" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" alpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<uiCore:Label id="lblDeskName" text="" x="304" y="55" anchorOffsetX="0" width="130" verticalAlign="middle" textAlign="center" textColor="0xfff700" size="40"/>
+</e:Skin>

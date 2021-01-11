@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishGenSceneSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" xmlns:ns1="*">	 
+    <e:Image id="fishBoard" horizontalCenter="0" verticalCenter="0" source="board"/>   
+	<e:Image id="fishGen" x="40" y="40" anchorOffsetX="43" anchorOffsetY="60"  source="gun1"/>
+	<e:Image id="fishSeat" horizontalCenter="0" verticalCenter="0" source="seat"/>
+	<e:Image id="fishgrade" horizontalCenter="0" verticalCenter="0" source="disc"/>
+	<ns1:ParticleGroup id="LfireLight" particleScaleX="0.5"  particleScaleY="0.5" source="fireLight"></ns1:ParticleGroup>
+	<ns1:ParticleGroup id="RfireLight" particleScaleX="0.5"  particleScaleY="0.5" source="fireLight"></ns1:ParticleGroup>
+	<ns1:ParticleGroup id="LlittleLight" source="littleLight"></ns1:ParticleGroup>
+	<ns1:ParticleGroup id="RlittleLight" source="littleLight"></ns1:ParticleGroup>
+	<uiCore:Button id="addbtn" horizontalCenter="70" verticalCenter="10" visible="false">
+			<uiCore:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image scaleX="0.6%" scaleY="0.6%" source="add"/>
+				</e:Skin>
+			</uiCore:skinName> 
+	</uiCore:Button>
+	<uiCore:Button id="downbtn" horizontalCenter="-70" verticalCenter="10" visible="false">
+			<uiCore:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image scaleX="0.6%" scaleY="0.6%" source="down"/>
+				</e:Skin>
+			</uiCore:skinName> 
+	</uiCore:Button>
+	<e:BitmapLabel id="oddsMoney" font="gunFont_fnt" text="0" scaleX="0.6%" scaleY="0.6%" horizontalCenter="0" verticalCenter="0" ></e:BitmapLabel>
+	<e:Image id="moneybg" horizontalCenter="130" verticalCenter="-30" scaleX="0.6%" scaleY="0.6%" source="01" />	 
+	<e:BitmapLabel id="money" font="gunGoldFont_fnt" text="0" scaleX="0.6%" scaleY="0.6%" horizontalCenter="130" verticalCenter="-30" ></e:BitmapLabel>
+	<e:Label id="playername" text="亲爱的玩家" fontFamily="Microsoft YaHei" size="20" textColor="0xffffff" width="170" horizontalCenter="180" verticalCenter="10" textAlign="left"  verticalAlign="bottom"/>	
+	<ns1:CircleImage id="card" scaleX="1%" scaleY="1%" x="-80" y="-140" source="card1" visible="false"/>
+	<ns1:CircleGroup id="lockFishView" x="120" y="-180"  visible="false">
+		<e:Image scaleX="0.6%" scaleY="0.6%" source="zzsd" /> 
+	</ns1:CircleGroup>
+</e:Skin>

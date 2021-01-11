@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="public.Button14Skin" states="up,down"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" width="72" height="72">
+
+	<e:Image horizontalCenter="0" verticalCenter="0" source="main_women4_png" width="72" height="72"/>
+	<e:Image id="iconDisplay" verticalCenter.up="0" horizontalCenter.up="0" horizontalCenter="0" verticalCenter="0" width="72" height="72" source.down="" source.up="" source="main_women4_png"/>
+	<uiCore:Label id="labelDisplay" text="" size="19" verticalCenter="-1.5" horizontalCenter="0" fontFamily="微软雅黑" bold="true"/>
+</e:Skin>

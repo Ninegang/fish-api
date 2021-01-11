@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CheckBoxButtonSkin" currentState="disable" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" states="up,down,disable,upAndSelected,downAndSelected,disableAndSelected" >
+	<e:Image source="checkBoxButton0_png"/>
+	<e:Image visible.up="false" visible.down="false" visible.disable="false" source.disableAndSelected="a8_02_png" x.disableAndSelected="13" x="4" y="6" source="checkBoxButton1_png"/>
+	<uiCore:Label id="labelDisplay" text="" fontFamily="微软雅黑" size="23" textAlign="center" x="51" y="9"/>
+</e:Skin>
