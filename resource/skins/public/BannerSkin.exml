@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="public.BannerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*" height="53" width="1280">
-	<e:Group y="0" left="0" horizontalCenter="0" right="0" height="53" touchThrough="true" touchEnabled="false">
-		<e:Image source="bannerBg" scale9Grid="25,1,21,10" height="100%" alpha="0.7" left="0" horizontalCenter="0" right="0" width="960" touchEnabled="false"/>
-		<e:Image source="bannerBg" scale9Grid="25,1,21,10" height="100%" alpha="0.7" left="0" horizontalCenter="0" right="0" width="960" touchEnabled="false"/>
-		<e:Image source="bannerBg" scale9Grid="25,1,21,10" height="100%" alpha="0.7" left="0" horizontalCenter="0" right="0" width="960" touchEnabled="false"/>
-		<uiCore:Label id="messageLabel" text="" size="22" verticalAlign="middle" textAlign="center" fontFamily="微软雅黑" width="100%" verticalCenter="-1" height="100%" horizontalCenter="0" touchEnabled="false" textColor="0xfff292" wordWrap="true"/>
-	</e:Group>
-</e:Skin>

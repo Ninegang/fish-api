@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="public.LoaddingSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:uiCore="uiCore.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Rect height="100%" width="100%" fillAlpha="0" strokeAlpha="1"/>
-	<!--<uiCore:Animation id="loadding" horizontalCenter="0" verticalCenter="0" animationSource="loading{0}_png" frameRate="200" scaleX="0.8" scaleY="0.8" frameNum="8" source="loading01_png" width="172" height="172" autoPlay="true" loop="true"/>-->
-	<ns1:MovieClipGroup source="fish" sourceName="loading" rameLabel="run" scaleX="0.8" scaleY="0.8" verticalCenter="0" horizontalCenter="0" width="172" height="172"></ns1:MovieClipGroup>
-	<e:Label id="progressTxt" text="100%" horizontalCenter="0" verticalCenter="0" size="21"/>
-	<e:Label id="restConnect" text="" horizontalCenter="0" verticalCenter="100" size="21" visible="false" />
-</e:Skin>

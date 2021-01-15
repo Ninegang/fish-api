@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="public.Button12Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:uiCore="uiCore.*">
-	<e:Image left="0" right="0" top="0" bottom="0" source="gamehall_cancel_btn" width="180" height="65"/>
-	<e:Image id="iconDisplay" x="56" y="34" verticalCenter.up="0" horizontalCenter.up="0"/>
-	<uiCore:Label id="labelDisplay" text="" size="32" verticalCenter="-5" horizontalCenter="0" textColor.disabled="0x8C8C8C" fontFamily="Microsoft YaHei"/>
-</e:Skin>

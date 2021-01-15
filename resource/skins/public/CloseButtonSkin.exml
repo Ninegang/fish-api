@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="public.CloseButtonSkin" states="up,down,disabled"
-        xmlns:e="http://ns.egret.com/eui">
-	<e:Image y.down="1" source.disabled="gamehall_BtnClose_png" source.up="gamehall_BtnClose_png" source.down="gamehall_BtnClose_png" source="gamehall_BtnClose_png"/>
-</e:Skin>
